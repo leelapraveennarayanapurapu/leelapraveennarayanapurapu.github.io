@@ -1,168 +1,179 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="aurora">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#061121">
-    <meta name="description" content="Project management portfolio of Leela Praveen Narayanapurapu, featuring PMO, business transformation, project controls, and cross-functional delivery experience.">
-    <meta property="og:title" content="Leela Praveen | Project Manager &amp; PMO Portfolio">
-    <meta property="og:description" content="Selected project delivery experience, measurable outcomes, and an academic AI/AR capstone.">
+    <meta name="theme-color" content="#f8f7ff">
+    <meta name="description" content="Portfolio of Leela Praveen Narayanapurapu, a project management professional with 5+ years across AI, IT, government, civil infrastructure, finance, and business operations.">
+    <meta property="og:title" content="Leela Praveen Narayanapurapu | Project Manager &amp; Business Analyst">
+    <meta property="og:description" content="Project delivery evidence, measurable outcomes, role alignment, and cross-industry experience.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/leela-praveen-portrait.webp">
-    <title>Leela Praveen | Project Manager &amp; PMO Portfolio</title>
+    <title>Leela Praveen Narayanapurapu | Project Manager &amp; Business Analyst</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
   </head>
   <body>
-    <main>
-      <header class="site-header" aria-label="Primary navigation">
-        <a class="monogram" href="#top" aria-label="Leela Praveen home">LP</a>
-        <nav class="nav-links" aria-label="Portfolio sections">
+    <a class="skip-link" href="#overview">Skip to portfolio</a>
+    <main id="overview">
+      <header class="site-header">
+        <a class="identity" href="#overview" aria-label="Leela Praveen, overview">
+          <span class="identity-mark">LP</span>
+          <span class="identity-copy"><strong>Leela Praveen</strong><small>Delivery command center</small></span>
+        </a>
+        <nav aria-label="Portfolio navigation">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
+          <a href="#role-fit">Role fit</a>
           <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
+          <a href="#education">Education</a>
         </nav>
-        <a class="nav-resume" href="assets/leela-praveen-project-manager-resume.pdf" download>Resume <span aria-hidden="true">↓</span></a>
+        <a class="nav-contact" href="#contact"><i></i> Contact</a>
       </header>
 
-      <section class="hero section-shell" id="top">
-        <div class="hero-copy">
-          <div class="signal-line" aria-hidden="true"><span></span><i></i><i></i></div>
-          <p class="eyebrow">Project delivery • PMO • transformation</p>
-          <h1>Leela Praveen<span>Narayanapurapu</span></h1>
-          <p class="hero-role">Project Manager | PMO &amp; Business Transformation</p>
-          <p class="hero-intro">Turning complex initiatives into structured delivery through clear planning, cross-functional leadership, and measurable execution.</p>
+      <aside class="theme-studio" aria-label="Portfolio visual style options">
+        <div class="theme-studio-heading"><span>Choose your world</span><small>Live preview · 3 options</small></div>
+        <div class="theme-options">
+          <button class="theme-option" type="button" data-theme-choice="aurora" aria-pressed="true">
+            <span class="theme-number">01</span><span class="theme-option-copy"><strong>Aurora Pearl</strong><small>Luminous · premium</small></span>
+            <span class="theme-swatches" aria-hidden="true"><i style="background:#f8f7ff"></i><i style="background:#ded9ff"></i><i style="background:#7adbd0"></i><i style="background:#6558d9"></i></span>
+          </button>
+          <button class="theme-option" type="button" data-theme-choice="horizon" aria-pressed="false">
+            <span class="theme-number">02</span><span class="theme-option-copy"><strong>Warm Horizon</strong><small>Optimistic · energetic</small></span>
+            <span class="theme-swatches" aria-hidden="true"><i style="background:#fff9f1"></i><i style="background:#ffd9c8"></i><i style="background:#f1b64d"></i><i style="background:#087f8c"></i></span>
+          </button>
+          <button class="theme-option" type="button" data-theme-choice="atlas" aria-pressed="false">
+            <span class="theme-number">03</span><span class="theme-option-copy"><strong>Sky Atlas</strong><small>Clear · futuristic</small></span>
+            <span class="theme-swatches" aria-hidden="true"><i style="background:#f5faff"></i><i style="background:#dcecff"></i><i style="background:#78d8ca"></i><i style="background:#2f65d9"></i></span>
+          </button>
+        </div>
+      </aside>
+
+      <section class="command-hero" aria-labelledby="hero-title">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="world-effects" aria-hidden="true">
+          <i class="world-orb orb-one"></i><i class="world-orb orb-two"></i>
+          <i class="world-ring ring-one"></i><i class="world-ring ring-two"></i><span class="world-route"></span>
+        </div>
+        <div class="boot-sweep" aria-hidden="true"></div>
+
+        <div class="hero-main">
+          <div class="hero-status"><span>Portfolio / Mission control</span><span>Jersey City, NJ · Open to relocation</span></div>
+          <p class="eyebrow">Project Manager · Assistant PM · Project Coordinator · Business Analyst</p>
+          <h1 id="hero-title">Plan with clarity.<span>Deliver with impact.</span></h1>
+          <p class="hero-summary">I turn complex, cross-functional initiatives into structured plans, visible risks, aligned teams, and measurable progress—across AI, technology, government, infrastructure, and finance.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">→</span></a>
-            <a class="button button-secondary" href="assets/leela-praveen-project-manager-resume.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
+            <a class="primary-action" href="#experience">View evidence <span aria-hidden="true">→</span></a>
+            <a class="secondary-action" href="assets/leela-praveen-project-manager-resume.pdf" target="_blank" rel="noreferrer">Download profile</a>
           </div>
-          <div class="delivery-rail" aria-label="Project delivery approach">
-            <span class="rail-dot active"></span><span class="rail-dot"></span><span class="rail-dot"></span><span class="rail-dot"></span>
-            <span class="rail-label">Plan</span><span class="rail-label">Align</span><span class="rail-label">Deliver</span><span class="rail-label">Improve</span>
-          </div>
+          <div class="role-chips" aria-label="Target roles"><span>Project Manager</span><span>Assistant Project Manager</span><span>Project Coordinator</span><span>Business Analyst</span></div>
         </div>
 
-        <div class="portrait-panel" aria-label="Portrait of Leela Praveen Narayanapurapu">
-          <div class="portrait-grid" aria-hidden="true"></div>
-          <div class="gantt" aria-hidden="true">
-            <span class="gantt-bar bar-one"></span><span class="gantt-bar bar-two"></span><span class="gantt-bar bar-three"></span><span class="gantt-bar bar-four"></span>
+        <aside class="readiness-panel" aria-label="Professional impact">
+          <div class="panel-top"><span>Delivery readiness</span><span class="online"><i></i> Available</span></div>
+          <div class="readiness-score"><strong>5+</strong><span>years across project delivery and operations</span></div>
+          <div class="readiness-metrics">
+            <div><strong>5–10</strong><span>Concurrent projects</span></div><div><strong>20+</strong><span>Team members</span></div>
+            <div><strong>30%</strong><span>Processing reduction</span></div><div><strong>25%</strong><span>Reporting accuracy</span></div>
           </div>
-          <img src="assets/leela-praveen-portrait.webp" alt="Leela Praveen Narayanapurapu">
-        </div>
-
-        <div class="metric-grid" aria-label="Career highlights">
-          <article class="metric-card"><span class="metric-index">01</span><strong>5+</strong><p>Years of project delivery</p><span class="metric-accent" aria-hidden="true"></span></article>
-          <article class="metric-card"><span class="metric-index">02</span><strong>5–10</strong><p>Concurrent programs</p><span class="metric-accent" aria-hidden="true"></span></article>
-          <article class="metric-card"><span class="metric-index">03</span><strong>15+</strong><p>Team members led</p><span class="metric-accent" aria-hidden="true"></span></article>
-        </div>
+          <div class="panel-foot"><span>MS · Project Management</span><span>PMP · In progress</span></div>
+        </aside>
       </section>
 
-      <section class="content-section section-shell" id="about">
-        <div class="section-heading"><p class="eyebrow">Profile</p><h2>Structure for complex work.</h2></div>
-        <div class="about-copy">
-          <p>I coordinate programs across technology, AI data operations, government, infrastructure, and finance—connecting business goals to practical plans, transparent governance, and accountable delivery.</p>
-          <p>My approach combines hands-on project controls with clear stakeholder communication, process improvement, and data-driven reporting.</p>
+      <section class="about-section" id="about">
+        <div class="section-label reveal motion-label">01 / About</div>
+        <div class="about-statement reveal motion-left"><span>What I bring</span><h2>Structure for the work.<br>Visibility for decisions.<br>Momentum for teams.</h2></div>
+        <div class="about-copy reveal motion-right">
+          <p>My work spans project intake and scope definition, WBS and scheduling, budget tracking, risk and dependency management, vendor coordination, governance documentation, KPI dashboards, and executive reporting.</p>
+          <p>I connect business needs with operational and technical execution, building the controls and communication rhythms that help teams deliver with confidence.</p>
         </div>
+        <div class="about-signals reveal motion-stagger" aria-label="Core strengths"><span>Project management</span><span>Program management</span><span>Budget management</span><span>Agile delivery</span><span>Business operations</span><span>Continuous improvement</span></div>
       </section>
 
-      <section class="experience-section section-shell" id="experience">
-        <div class="section-heading experience-heading">
-          <p class="eyebrow">Experience</p><h2>Delivery across sectors.</h2>
-          <p class="section-note">A progression from infrastructure project leadership to U.S. public finance and AI operations—with consistent focus on structure, visibility, and results.</p>
+      <section class="experience-section" id="experience">
+        <div class="section-heading reveal motion-heading">
+          <div><span class="section-label">02 / Experience</span><p class="accent-label">Verified impact log</p></div>
+          <h2>Outcomes first.<br>Evidence built in.</h2>
+          <p>Every bullet follows the XYZ principle: what changed, how it was measured, and the method used—without inventing results.</p>
         </div>
-        <div class="experience-list">
-          <article class="experience-item">
-            <div class="experience-marker" aria-hidden="true"><span>01</span></div>
-            <div class="experience-content">
-              <div class="experience-meta"><div><p>Centific Global Solutions</p><h3>Assistant Project Manager</h3></div><time>2025 — Present</time></div>
-              <p class="experience-summary">Coordinating AI data-operations programs across project intake, scope, capacity, vendor workflows, dependencies, governance, and performance reporting.</p>
-              <div class="outcome-row"><span>15% faster turnaround</span><span>25% stronger reporting accuracy</span><span>20% higher operational throughput</span></div>
-            </div>
+        <div class="experience-log">
+          <article class="experience-entry reveal motion-experience">
+            <div class="entry-rail"><span>OPS-05</span><i></i></div><div class="entry-meta"><time>Jun 2025 — Present</time><span>AI · IT · Operations</span></div>
+            <div class="entry-content"><p class="entry-role">Assistant Project Manager / Project Coordinator</p><h3>Centific</h3><p class="entry-summary">Coordinate end-to-end AI data operations across operations, AI, engineering, and vendor teams.</p><ul><li>Improved turnaround efficiency by 15% by identifying vendor SLA risks, resolving operational bottlenecks, and coordinating corrective actions across technical and operational teams.</li><li>Increased reporting accuracy by 25% by building KPI dashboards and executive reports in Excel, Power BI, and SharePoint.</li><li>Raised operational throughput by 20% by standardizing scheduling, capacity allocation, SOPs, action logs, and centralized documentation.</li><li>Strengthened delivery governance and audit readiness by managing intake, scope, timelines, capacity, dependencies, delivery plans, and program documentation.</li></ul></div>
+            <div class="entry-signals"><span>15% faster</span><span>25% accuracy</span><span>20% throughput</span></div>
           </article>
-          <article class="experience-item">
-            <div class="experience-marker" aria-hidden="true"><span>02</span></div>
-            <div class="experience-content">
-              <div class="experience-meta"><div><p>Handshake</p><h3>AI Trainer — Business &amp; Finance Fellowship</h3></div><time>2025 — 2026</time></div>
-              <p class="experience-summary">Applied structured quality frameworks to business and finance AI outputs, standardizing review workflows and translating findings into actionable performance insights.</p>
-              <div class="outcome-row"><span>Quality frameworks</span><span>Workflow consistency</span><span>Performance analysis</span></div>
-            </div>
+          <article class="experience-entry reveal motion-experience">
+            <div class="entry-rail"><span>AIX-04</span><i></i></div><div class="entry-meta"><time>Nov 2025 — Jan 2026</time><span>AI · Finance · Quality</span></div>
+            <div class="entry-content"><p class="entry-role">AI Trainer — Business &amp; Finance Expert</p><h3>Handshake</h3><p class="entry-summary">Evaluated business and finance AI outputs through repeatable quality and review frameworks.</p><ul><li>Improved the reliability, clarity, and consistency of business and finance AI outputs by applying structured quality frameworks and standardized review workflows.</li><li>Enabled evidence-based performance insights throughout a 3-month fellowship by delivering detailed evaluation feedback against defined criteria.</li></ul></div>
+            <div class="entry-signals"><span>AI quality</span><span>3-month fellowship</span></div>
           </article>
-          <article class="experience-item">
-            <div class="experience-marker" aria-hidden="true"><span>03</span></div>
-            <div class="experience-content">
-              <div class="experience-meta"><div><p>NYC Department of Finance</p><h3>Project Management Intern</h3></div><time>2024</time></div>
-              <p class="experience-summary">Supported compliance-focused analysis, financial reconciliation, process automation, root-cause analysis, and leadership reporting in a public-sector environment.</p>
-              <div class="outcome-row"><span>200+ records validated</span><span>30% less processing time</span><span>20% faster issue resolution</span></div>
-            </div>
+          <article class="experience-entry reveal motion-experience">
+            <div class="entry-rail"><span>FIN-03</span><i></i></div><div class="entry-meta"><time>Jun — Aug 2024</time><span>Finance · Government · Analysis</span></div>
+            <div class="entry-content"><p class="entry-role">Project Management Intern</p><h3>NYC Department of Finance</h3><p class="entry-summary">Delivered compliance-focused analysis, financial reconciliation, and process improvement.</p><ul><li>Strengthened audit readiness and governance controls by validating 200+ financial records through compliance-focused project analysis and reconciliation.</li><li>Reduced processing time by 30% by developing Excel automation and decision matrices for repeatable financial workflows.</li><li>Improved issue-resolution time by 20% by performing root-cause analysis, redesigning workflows, and presenting executive-ready recommendations.</li></ul></div>
+            <div class="entry-signals"><span>200+ records</span><span>30% faster</span><span>20% resolution</span></div>
           </article>
-          <article class="experience-item">
-            <div class="experience-marker" aria-hidden="true"><span>04</span></div>
-            <div class="experience-content">
-              <div class="experience-meta"><div><p>Government of Andhra Pradesh</p><h3>Project Manager</h3></div><time>2019 — 2023</time></div>
-              <p class="experience-summary">Directed concurrent infrastructure and IT programs spanning schedules, budgets, risks, resources, contractors, vendors, compliance, and cross-agency governance.</p>
-              <div class="outcome-row"><span>5–10 concurrent programs</span><span>15% shorter timelines</span><span>15+ personnel supervised</span></div>
-            </div>
+          <article class="experience-entry reveal motion-experience">
+            <div class="entry-rail"><span>CIV-02</span><i></i></div><div class="entry-meta"><time>Nov 2019 — Aug 2023</time><span>Civil · Health · Public Sector</span></div>
+            <div class="entry-content"><p class="entry-role">Project Manager</p><h3>Government of Andhra Pradesh</h3><p class="entry-summary">Managed public-building, hospital, municipal-infrastructure, and civil-construction programs from planning through closeout.</p><ul><li>Reduced delivery timelines by 15% across 5–10 concurrent projects by building WBS and critical-path schedules in Primavera P6, forecasting milestones, and applying project governance.</li><li>Improved cross-agency turnaround by 20% by aligning owner representatives, engineers, designers, contractors, suppliers, vendors, and community stakeholders through reviews, trackers, and written communication.</li><li>Maintained control of scope, schedule, cost, resources, quality, risks, compliance, and documentation for teams of 20+ by integrating delivery controls and escalation routines.</li><li>Accelerated design clarification and issue closure by coordinating RFIs, submittals, drawing revisions, approvals, and change documentation through completion.</li><li>Improved cost and constructability decisions by reviewing contractor reports, drawings, expenditures, forecasts, and variances and presenting practical recommendations.</li><li>Strengthened governance and knowledge reuse by producing executive status reports and standardizing trackers, document controls, risk logs, and lessons learned.</li></ul></div>
+            <div class="entry-signals"><span>5–10 projects</span><span>15% faster</span><span>20+ team</span></div>
+          </article>
+          <article class="experience-entry reveal motion-experience">
+            <div class="entry-rail"><span>DES-01</span><i></i></div><div class="entry-meta"><time>Jun — Oct 2019</time><span>Civil · Technical Design</span></div>
+            <div class="entry-content"><p class="entry-role">AutoCAD Designer</p><h3>Suvan Infotech Solutions</h3><p class="entry-summary">Built an early foundation in technical drawing, design precision, and infrastructure documentation.</p><ul><li>Supported accurate technical design delivery during a 5-month assignment by applying AutoCAD within a professional design environment.</li><li>Built the technical discipline used in later infrastructure delivery by translating design requirements into structured drawings and documentation.</li></ul></div>
+            <div class="entry-signals"><span>AutoCAD</span><span>Technical design</span></div>
           </article>
         </div>
       </section>
 
-      <section class="content-section section-shell" id="projects">
-        <div class="section-heading">
-          <p class="eyebrow">Featured project</p><h2>AI-powered virtual fashion platform</h2>
-          <p class="section-note">Academic project-management case study • New York University</p>
+      <section class="fit-section" id="role-fit">
+        <div class="section-heading reveal motion-heading"><div><span class="section-label">03 / Role fit</span><p class="accent-label">Market-aligned evidence</p></div><h2>Four roles.<br>One proven core.</h2><p>Common employer expectations are mapped directly to evidence from my project, operations, finance, AI, and infrastructure work.</p></div>
+        <div class="role-grid">
+          <article class="role-card reveal motion-card"><div class="role-card-top"><span>01</span><small>Target role</small></div><h3>Project Manager</h3><div class="role-row"><span>Market need</span><p>Full lifecycle ownership · scope · schedule · budget · resources · risk · governance · change · executive reporting</p></div><div class="role-row proof"><span>My evidence</span><p>Led 5–10 concurrent infrastructure programs; managed delivery controls, Primavera P6 schedules, costs, risks, compliance, vendors, and teams of 20+.</p></div></article>
+          <article class="role-card reveal motion-card"><div class="role-card-top"><span>02</span><small>Target role</small></div><h3>Assistant Project Manager</h3><div class="role-row"><span>Market need</span><p>Plan maintenance · cost tracking · RFIs · submittals · change orders · quality · vendors · documentation</p></div><div class="role-row proof"><span>My evidence</span><p>Coordinated RFIs, submittals, drawings, approvals, forecasts, variances, change documentation, and constructability decisions.</p></div></article>
+          <article class="role-card reveal motion-card"><div class="role-card-top"><span>03</span><small>Target role</small></div><h3>Project Coordinator</h3><div class="role-row"><span>Market need</span><p>Scheduling · action logs · meeting cadence · capacity · milestones · issue tracking · status reporting</p></div><div class="role-row proof"><span>My evidence</span><p>Standardized scheduling, capacity allocation, SOPs, action logs, KPI dashboards, and centralized documentation across AI operations.</p></div></article>
+          <article class="role-card reveal motion-card"><div class="role-card-top"><span>04</span><small>Target role</small></div><h3>Business Analyst</h3><div class="role-row"><span>Market need</span><p>Requirements · stakeholder elicitation · process mapping · data analysis · root cause · recommendations · traceability</p></div><div class="role-row proof"><span>My evidence</span><p>Validated 200+ records, built decision matrices and Excel automation, redesigned workflows, and delivered executive-ready findings.</p></div></article>
         </div>
-        <article class="project-spotlight">
-          <div class="project-summary">
-            <p>An end-to-end delivery plan for a hypothetical AI and augmented-reality fashion platform, developed to demonstrate integrated project-management planning from charter through closeout.</p>
-            <div class="project-facts"><span><strong>$650K</strong> planned budget</span><span><strong>15 months</strong> delivery roadmap</span><span><strong>5</strong> risk categories</span></div>
-          </div>
-          <div class="deliverable-list"><span>Project charter &amp; scope</span><span>WBS &amp; milestone schedule</span><span>Requirements traceability</span><span>Risk &amp; change control</span><span>Budget &amp; quality plans</span><span>Stakeholder engagement</span></div>
-        </article>
-        <div class="success-measures" aria-label="Capstone target success measures">
-          <p>Target success measures</p>
-          <div><span><strong>&gt;90%</strong> AI suggestion accuracy</span><span><strong>&lt;2 sec</strong> AR load time</span><span><strong>≥95%</strong> inventory synchronization</span><span><strong>≥90%</strong> task completion</span></div>
-        </div>
-        <div class="project-grid" aria-label="Additional selected work">
-          <article class="project-card"><div class="project-card-top"><span>02</span><p>AI operations</p></div><h3>Cross-functional delivery &amp; governance</h3><p>Coordinated intake, dependencies, vendor workflows, capacity, action logs, SOPs, and KPI reporting for deadline-driven AI data operations.</p><div class="project-tags"><span>Jira</span><span>Confluence</span><span>Power BI</span><span>SharePoint</span></div></article>
-          <article class="project-card"><div class="project-card-top"><span>03</span><p>Public finance</p></div><h3>Financial workflow improvement</h3><p>Combined reconciliation, Excel automation, decision matrices, root-cause analysis, and executive reporting to strengthen audit readiness and processing efficiency.</p><div class="project-tags"><span>Excel</span><span>Process Mapping</span><span>Controls</span><span>Reporting</span></div></article>
-          <article class="project-card"><div class="project-card-top"><span>04</span><p>Infrastructure &amp; IT</p></div><h3>Multi-program project controls</h3><p>Managed concurrent programs through WBS-based planning, Primavera P6 schedules, critical-path analysis, budget forecasting, variance reporting, and issue resolution.</p><div class="project-tags"><span>Primavera P6</span><span>WBS</span><span>Budgets</span><span>Risk</span></div></article>
-        </div>
-      </section>
-
-      <section class="content-section section-shell" id="skills">
-        <div class="section-heading">
-          <p class="eyebrow">Core capabilities</p><h2>Planning, governance, and delivery.</h2>
-          <p class="section-note">A practical toolkit for moving initiatives from ambiguity to accountable execution.</p>
-        </div>
-        <div class="skills-stack">
-          <div class="skill-cloud"><span>Project Planning</span><span>Scope &amp; Schedule</span><span>Risk &amp; Issues</span><span>Budget Controls</span><span>Stakeholder Management</span><span>Process Improvement</span><span>Executive Reporting</span><span>Agile Delivery</span></div>
-          <div class="tool-groups">
-            <article><p>Planning &amp; controls</p><span>MS Project • Primavera P6 • WBS • Critical Path • Forecasting</span></article>
-            <article><p>Collaboration &amp; governance</p><span>Jira • Confluence • SharePoint • SOPs • Change Control</span></article>
-            <article><p>Reporting &amp; visualization</p><span>Excel • Power BI • KPI Dashboards • Executive Reporting • Visio</span></article>
+        <div class="industry-console reveal motion-console">
+          <div class="console-title"><span>Industry transfer map</span><span>06 sectors online</span></div>
+          <div class="industry-grid">
+            <article><div class="industry-head"><span>IT</span><small>Direct + transferable</small></div><h3>Information Technology</h3><p><strong>Role signals:</strong> Implementation plans, milestones, business–technical liaison, vendors, risk, requirements, reporting.</p><p><strong>Evidence:</strong> AI/engineering coordination, delivery plans, Jira, Confluence, dashboards, governance documentation.</p></article>
+            <article><div class="industry-head"><span>AI</span><small>Direct</small></div><h3>Artificial Intelligence</h3><p><strong>Role signals:</strong> Data readiness, quality evaluation, cross-functional delivery, vendor dependencies, governance, adoption.</p><p><strong>Evidence:</strong> Centific AI data operations and Handshake AI evaluation across business and finance outputs.</p></article>
+            <article><div class="industry-head"><span>CIV</span><small>Direct</small></div><h3>Civil &amp; Infrastructure</h3><p><strong>Role signals:</strong> WBS, critical path, cost, quality, RFIs, submittals, change, contractors, safety and compliance.</p><p><strong>Evidence:</strong> Nearly four years delivering public buildings, hospitals, municipal infrastructure, and civil projects.</p></article>
+            <article><div class="industry-head"><span>FIN</span><small>Direct</small></div><h3>Finance</h3><p><strong>Role signals:</strong> Controls, audit readiness, risk, governance, data accuracy, regulatory documentation, process improvement.</p><p><strong>Evidence:</strong> NYC Department of Finance reconciliation, automation, root-cause analysis, and governance controls.</p></article>
+            <article><div class="industry-head"><span>EDU</span><small>Transferable</small></div><h3>Education</h3><p><strong>Role signals:</strong> Institutional governance, business cases, budgets, stakeholder engagement, change and resource planning.</p><p><strong>Evidence:</strong> MS in Project Management plus public-sector governance, sponsor communication, budgeting, and change control.</p></article>
+            <article><div class="industry-head"><span>HLT</span><small>Direct + transferable</small></div><h3>Health</h3><p><strong>Role signals:</strong> Operational readiness, compliance, cross-functional implementation, workflow change, data and risk controls.</p><p><strong>Evidence:</strong> Hospital infrastructure delivery plus audit-ready operations, governance, compliance, and AI data programs.</p></article>
           </div>
         </div>
       </section>
 
-      <section class="education-section section-shell" id="education">
-        <div class="section-heading"><p class="eyebrow">Education &amp; credentials</p><h2>Built on project-management discipline.</h2></div>
+      <section class="skills-section" id="skills">
+        <div class="section-heading reveal motion-heading"><div><span class="section-label">04 / Skills</span><p class="accent-label">Execution toolkit</p></div><h2>Tools are useful.<br>Systems create value.</h2><p>A practical toolkit for planning, analysis, reporting, governance, and technical collaboration.</p></div>
+        <div class="skills-grid">
+          <article class="skill-module reveal motion-skill"><div class="module-head"><span>01</span><small>Project &amp; PMO</small></div><ul><li>Project lifecycle</li><li>Scope &amp; WBS</li><li>Schedule &amp; critical path</li><li>Budget &amp; cost control</li><li>Risk &amp; dependencies</li><li>Change control</li><li>Vendor coordination</li><li>Governance</li></ul></article>
+          <article class="skill-module reveal motion-skill"><div class="module-head"><span>02</span><small>Analysis &amp; Reporting</small></div><ul><li>Requirements analysis</li><li>Root-cause analysis</li><li>Process mapping</li><li>Decision matrices</li><li>KPI dashboards</li><li>Executive reporting</li><li>Financial reconciliation</li><li>Audit readiness</li></ul></article>
+          <article class="skill-module reveal motion-skill"><div class="module-head"><span>03</span><small>Platforms</small></div><ul><li>MS Project</li><li>Primavera P6</li><li>Jira</li><li>Confluence</li><li>SharePoint</li><li>Excel</li><li>Power BI</li><li>Visio</li><li>AutoCAD</li></ul></article>
+          <article class="skill-module reveal motion-skill"><div class="module-head"><span>04</span><small>Data &amp; Technical</small></div><ul><li class="beginner-skill">SQL — Beginner</li><li class="beginner-skill">Python — Beginner</li><li>AI output evaluation</li><li>Data operations</li><li>Technical documentation</li><li>Quality frameworks</li></ul></article>
+        </div>
+      </section>
+
+      <section class="education-section" id="education">
+        <div class="section-heading reveal motion-heading"><div><span class="section-label">05 / Education</span><p class="accent-label">Foundation &amp; growth</p></div><h2>Engineering rigor.<br>Business direction.</h2><p>Formal project-management training supported by engineering discipline and continuous professional development.</p></div>
         <div class="education-grid">
-          <article class="education-card primary-education"><span>2023 — 2024</span><p>New York University</p><h3>Master of Science, Project Management</h3><div><strong>3.8 GPA</strong><span>Risk • IT PM • Financial Analysis • Process Improvement</span></div></article>
-          <article class="education-card"><span>2016 — 2019</span><p>Lakireddy Bali Reddy College of Engineering</p><h3>Bachelor of Technology, Civil Engineering</h3></article>
-          <article class="education-card credential-card"><span>Professional development</span><p>Lean Six Sigma Green Belt</p><h3>Project Management Professional (PMP) — In Progress</h3></article>
+          <article class="nyu-module reveal motion-education-feature"><span>New York University · 2024</span><p>Master of Science</p><h3>Project Management</h3><strong>3.8<small>/4.0 GPA</small></strong></article>
+          <div class="education-stack"><article class="degree-module reveal motion-education-side"><span>2016 — 2019</span><h3>Bachelor's Degree · Civil Engineering</h3><p>Lakireddy Bali Reddy College of Engineering</p></article><article class="degree-module reveal motion-education-side"><span>2013 — 2016</span><h3>Diploma · Civil Engineering</h3><p>AANM &amp; VVRSR Polytechnic College</p></article></div>
+          <article class="credentials-module reveal motion-credentials"><span>Credentials &amp; learning</span><ul><li><strong>Lean Six Sigma Green Belt</strong><small>Certified</small></li><li><strong>PMP</strong><small>In progress</small></li><li><strong>EY Financial Accounting Advisory Services</strong><small>Job simulation</small></li><li><strong>Generative AI Overview for Project Managers</strong><small>Completed</small></li><li><strong>Introduction to Agile Development and Scrum</strong><small>Completed</small></li><li><strong>AI for Project Managers and Scrum Masters</strong><small>Completed</small></li><li><strong>AI in Infrastructure &amp; Construction Projects</strong><small>Completed</small></li></ul></article>
         </div>
       </section>
 
-      <footer class="site-footer section-shell" id="contact">
-        <div><p class="eyebrow">Let's connect</p><h2>Open to project-management opportunities.</h2></div>
-        <div class="footer-links">
-          <a href="mailto:leelapraveen1996@gmail.com">leelapraveen1996@gmail.com</a>
-          <a href="https://www.linkedin.com/in/leelapraveennarayanapurapu" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a href="assets/leela-praveen-project-manager-resume.pdf" download>Download resume ↓</a>
-        </div>
-        <div class="footer-meta"><span>Jersey City, New Jersey</span><a href="#top">Back to top ↑</a></div>
-      </footer>
+      <section class="contact-section reveal motion-contact" id="contact">
+        <div class="contact-grid" aria-hidden="true"></div><span>06 / Next mission</span><h2>Ready to move<br>the work forward.</h2>
+        <p>Exploring Project Manager, Assistant Project Manager, Project Coordinator, PMO, and Business Analyst opportunities.</p>
+        <div class="contact-actions"><a href="mailto:leelapraveen1996@gmail.com">Email me <span>→</span></a><a href="https://www.linkedin.com/in/leelapraveennarayanapurapu" target="_blank" rel="noreferrer">LinkedIn <span>→</span></a><a href="assets/leela-praveen-project-manager-resume.pdf" target="_blank" rel="noreferrer">Full profile <span>→</span></a></div>
+        <div class="contact-meta"><span><i></i> Jersey City, New Jersey</span><span>Open to relocation</span><a href="tel:+15512298194">(551) 229-8194</a></div>
+      </section>
+
+      <footer class="reveal motion-footer"><a class="footer-mark" href="#overview">LP<span>/</span>PM</a><p>Leela Praveen Narayanapurapu · Project delivery command center</p><a href="#overview">Return to overview <span>→</span></a></footer>
     </main>
   </body>
 </html>
