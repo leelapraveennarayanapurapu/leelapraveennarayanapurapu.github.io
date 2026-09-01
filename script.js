@@ -19,35 +19,6 @@ themeButtons.forEach((button) => {
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-const roleTop = document.querySelector(".hero-role-word--top");
-const roleBottom = document.querySelector(".hero-role-word--bottom");
-const roleLive = document.querySelector(".hero-role-live");
-const roleIndexLabel = document.querySelector(".hero-role-index");
-const roleFrames = [
-  ["PROJECT", "MANAGER", "Project Manager"],
-  ["ASSISTANT", "PM", "Assistant Project Manager"],
-  ["PROJECT", "COORDINATOR", "Project Coordinator"],
-  ["BUSINESS", "ANALYST", "Business Analyst"],
-];
-let roleIndex = 0;
-
-if (!reducedMotion.matches && roleTop && roleBottom) {
-  window.setInterval(() => {
-    roleTop.classList.add("is-changing");
-    roleBottom.classList.add("is-changing");
-    window.setTimeout(() => {
-      roleIndex = (roleIndex + 1) % roleFrames.length;
-      const [top, bottom, label] = roleFrames[roleIndex];
-      roleTop.textContent = top;
-      roleBottom.textContent = bottom;
-      if (roleLive) roleLive.textContent = label;
-      if (roleIndexLabel) roleIndexLabel.textContent = `ROLE / 0${roleIndex + 1}`;
-      roleTop.classList.remove("is-changing");
-      roleBottom.classList.remove("is-changing");
-    }, 280);
-  }, 3000);
-}
-
 if (!reducedMotion.matches && "IntersectionObserver" in window) {
   const animatedItems = Array.from(document.querySelectorAll(".reveal"));
   root.classList.add("motion-ready");
